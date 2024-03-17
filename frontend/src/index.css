@@ -2,11 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 body {
-  background-image: url("/frontend/public/pn.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-color: rgb(161, 109, 171);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/frontend/public/ai-chatbot-app.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 /* dark mode looking scrollbar */

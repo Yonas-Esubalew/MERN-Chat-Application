@@ -17,10 +17,6 @@ app.use("/api/auths", authRoutes);
 app.use("/api/messages", messageRoutes);
 app.use("/api/users", userRoutes);
 
-// app.get("/", (req, res) => {
-//   // root route http://localhost:5000/
-//   res.send("hello world");
-// });
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   connecttoMongoDb();
