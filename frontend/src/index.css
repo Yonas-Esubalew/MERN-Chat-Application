@@ -1,9 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 body {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("./frontend/public/ai-chatbot-app.png");
+    url("../public/6402070624f84dda61251ae0_Feature_Types-of-Chatbots-You-can-Create-for-your-WA\ \(1\).jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

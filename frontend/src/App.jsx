@@ -5,7 +5,7 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
 import "./index.css";
 import { useAuthContext } from "./Context/AuthContext";
-// import "./App.css";
+import "./App.css";
 function App() {
   const { authUser } = useAuthContext();
   return (
