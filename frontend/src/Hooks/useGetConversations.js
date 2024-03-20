@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import toast from "react-hot-toast"
+import toast from "react-hot-toast";
 export const useGetConversations = () => {
   const [loading, setLoading] = useState(false);
   const [conversations, setConversations] = useState([]);
@@ -19,7 +19,7 @@ export const useGetConversations = () => {
         setLoading(false);
       }
     };
-    getConversations;
+    getConversations();
   }, []);
   return { loading, conversations };
 };
