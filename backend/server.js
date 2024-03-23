@@ -7,8 +7,8 @@ import messageRoutes from "./routes/message.routes.js";
 import userRoutes from "./routes/user.routes.js";
 import connecttoMongoDb from "./db/connecttoMongoDB.js";
 
-import app from "./socket/socket.js";
-import server from "./socket/socket.js";
+import {server,io, app } from "./socket/socket.js";
+
 dotenv.config();
 
 app.use(express.json());

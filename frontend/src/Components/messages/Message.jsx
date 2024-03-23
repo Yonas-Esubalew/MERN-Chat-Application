@@ -12,6 +12,8 @@ export const Message = ({ message }) => {
     ? authUser.profilepic
     : selectedConversation?.profilepic;
   const bubbleBgColor = fromMe ? "bg-blue-500" : "";
+
+  const shakeClass = message.shouldShake ? "shake" : "";
   return (
     <div className={`chat ${chatClassName}`}>
       <div className="chat-image avatar">
@@ -19,7 +21,9 @@ export const Message = ({ message }) => {
           <img src={profilepic} alt="Tailwind css chat bubble component" />
         </div>
       </div>
-      <div className={`chat-bubble text-white bg-color-500 ${bubbleBgColor}`}>
+      <div
+        className={`chat-bubble text-white bg-color-500 ${bubbleBgColor} ${shakeClass} pb-2`}
+      >
         {message.message}
       </div>
       <div className="chat-footer opacity-50 text-xs flex gap-1 items-center text-white">

@@ -1,5 +1,6 @@
 import Conversation from "../Models/conversation.model.js";
 import Message from "../Models/message.model.js";
+import { getRecieverSocketId, io } from "../socket/socket.js";
 export const sendMessage = async (req, res) => {
   try {
     const { message } = req.body;
@@ -29,6 +30,12 @@ export const sendMessage = async (req, res) => {
     // await newMessage.save();
 
     await Promise.all([conversation.save(), newMessage.save()]);
+
+    const recieverSocketId = getRecieverSocketId(recieverId);
+    if (recieverId) {
+      io.to(recieverSocketId).emit("newMessage", newMessage);
+    }
+
     res.status(201).json(newMessage);
   } catch (error) {
     console.log("Error in signup controller", error.message);
