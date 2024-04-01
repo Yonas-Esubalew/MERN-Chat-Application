@@ -4,11 +4,13 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "server": "nodemon /backend/server.js"
+    "server": "nodemon /backend/server.js",
+    "start": "node backend/server.js",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
   },
   "type": "module",
   "keywords": [],
-  "author": "",
+  "author": "Yonas Esubalew",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",

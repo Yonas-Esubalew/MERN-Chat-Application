@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 body {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("../public/6402070624f84dda61251ae0_Feature_Types-of-Chatbots-You-can-Create-for-your-WA\ \(1\).jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(48, 46, 46, 0.2)),
+    url("../public/360_F_548870803_womfmsxtthXmhwlQhdbooje6LNVa10by.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
