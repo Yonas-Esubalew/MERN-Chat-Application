@@ -4,11 +4,12 @@
 
 body {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(48, 46, 46, 0.2)),
-    url("../public/360_F_548870803_womfmsxtthXmhwlQhdbooje6LNVa10by.jpg");
+    url("../public/powerpoint-whatsapp-chat-app-background-design-template-2cb44957f5cfcf79f6918ab4b60b04c9_screen.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
+
 /* dark mode looking scrollbar */
 ::-webkit-scrollbar {
   width: 8px;

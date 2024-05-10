@@ -6,14 +6,16 @@ import path from "path";
 import authRoutes from "./routes/auth.routes.js";
 import messageRoutes from "./routes/message.routes.js";
 import userRoutes from "./routes/user.routes.js";
-import connecttoMongoDb from "./db/connecttoMongoDB.js";
+import connectToMongoDb from "./db/connectToMongoDB.js";
 
-import { server, io, app } from "./socket/socket.js";
+
+
+
+import { server, app } from "./socket/socket.js";
 const PORT = process.env.PORT || 5000;
 const __dirname = path.resolve();
 
 dotenv.config();
-
 app.use(express.json());
 app.use(cookieParser());
 
@@ -24,7 +26,8 @@ app.use(express.static(path.join(__dirname, "/frontend/dist")));
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "frontend", "dist", "index.html"));
 });
+
 server.listen(PORT, () => {
-  connecttoMongoDb();
+  connectToMongoDb();
   console.log(`server in this port is connected ${PORT}`);
 });

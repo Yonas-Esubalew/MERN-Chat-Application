@@ -26,8 +26,8 @@ export const sendMessage = async (req, res) => {
       conversation.message.push(newMessage._id);
     }
 
-    // await conversation.save();
-    // await newMessage.save();
+    await conversation.save();
+    await newMessage.save();
 
     await Promise.all([conversation.save(), newMessage.save()]);
 
