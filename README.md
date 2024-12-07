@@ -63,9 +63,9 @@ Ensure you have the following installed:
 3. Set up environment variables:
    - Create a `.env` file in the `backend` directory with the following keys:
      ```env
-     MONGO_URI=your_mongodb_connection_string
-     JWT_SECRET=your_secret_key
-     SOCKET_PORT=5001
+     MONGO_URI=mongodb+srv://yonasbe999:e24vJ0Dk3P6DOVLb@cluster0.8u4ydob.mongodb.net/chat-bot-project?retryWrites=true&w=majority&appName=Cluster0
+     JWT_SECRET=duLvaNXsqg8bPjMsz8g8MFWdsdlS+6ct+iFibhbJpcs=
+     SOCKET_PORT=8000
      ```
 
 4. Start the development servers:
@@ -80,7 +80,7 @@ Ensure you have the following installed:
      npm start
      ```
 
-5. Open your browser and visit: `http://localhost:3000`.
+5. Open your browser and visit: `http://localhost:5000`.
 
 ---
 
@@ -145,5 +145,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-- **Author**: [Your Name](https://github.com/Yonas-Esubalew)
+- **Author**: [Yonas Esubalew](https://github.com/Yonas-Esubalew)
 - **Email**: yonasatwork999@gmail.com
