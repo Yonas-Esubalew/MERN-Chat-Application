@@ -128,13 +128,6 @@ Contributions are welcome! If you have suggestions or want to improve the projec
 5. Open a pull request.
 
 ---
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
 ## Acknowledgements
 
 - [React Documentation](https://reactjs.org/docs/getting-started.html)
