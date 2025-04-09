@@ -8,9 +8,6 @@ import messageRoutes from "./routes/message.routes.js";
 import userRoutes from "./routes/user.routes.js";
 import connectToMongoDb from "./db/connectToMongoDB.js";
 
-
-
-
 import { server, app } from "./socket/socket.js";
 const PORT = process.env.PORT || 5000;
 const __dirname = path.resolve();
