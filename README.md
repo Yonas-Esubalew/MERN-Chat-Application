@@ -1,4 +1,7 @@
-# MERN Chat Application
+
+# 💬 MERN Real-Time Chat Application
+
+![Chat App Banner](https://github.com/Yonas-Esubalew/MERN-Chat-Application/blob/master/image_original%20(3).jpg?raw=true)
 
 A **real-time chat application** built using the MERN stack (MongoDB, Express.js, React.js, and Node.js) with Socket.IO for live communication. This project enables users to create accounts, chat in real-time with others, and manage their conversations effectively.
 
@@ -63,8 +66,8 @@ Ensure you have the following installed:
 3. Set up environment variables:
    - Create a `.env` file in the `backend` directory with the following keys:
      ```env
-     MONGO_URI=mongodb+srv://yonasbe999:e24vJ0Dk3P6DOVLb@cluster0.8u4ydob.mongodb.net/chat-bot-project?retryWrites=true&w=majority&appName=Cluster0
-     JWT_SECRET=duLvaNXsqg8bPjMsz8g8MFWdsdlS+6ct+iFibhbJpcs=
+     MONGO_URI=mongodb+srv://yourusernameandpassword@cluster0.8u4ydob.mongodb.net/chat-bot-project?retryWrites=true&w=majority&appName=Cluster0
+     JWT_SECRET=your sercret
      SOCKET_PORT=8000
      ```
 
@@ -136,7 +139,8 @@ Contributions are welcome! If you have suggestions or want to improve the projec
 
 ---
 
-## Contact
+## 👨‍💻 Author
 
-- **Author**: [Yonas Esubalew](https://github.com/Yonas-Esubalew)
-- **Email**: yonasatwork999@gmail.com
+- **Author**: [Yonas Esubalew](https://github.com/Yonas-Esubalew)  
+- **Email**: yonasatwork999@gmail.com  
+- **Website**: [yonas-esubalew.vercel.app](https://yonas-esubalew.vercel.app)
